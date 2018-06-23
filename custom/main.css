@@ -1,0 +1,10 @@
+.section-search input {
+    width: 90% !important;
+    padding: 5px !important;
+    font-size: 18px !important;
+    border: 3px solid #f4f4f4 !important;
+}
+
+.section-follow .fa-4x {
+    margin: 5px 10px;
+}
