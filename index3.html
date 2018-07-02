@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Now</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="custom/now.css">
+</head>
+<body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+        <nav class="white green-text lighten-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo black-text">Google Now</a>
+                    <a href="" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="hide-on-med-and-down right">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial">Testimonial</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul id="mobile-nav" class="sidenav">
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#testimonial">Testimonial</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+
+    <section class="section section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 s12 responsive-img">
+                    <div class="header-left">
+                        <img src="img/googlenow.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col m6 s12">
+                    <div class="header-right">
+                        <h2 class="">Hands-free help from the Google Assistant</h2>
+                        <br>
+                        <button class="btn blue black-text lighten-4 z-depth-3">Read More</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-quote center scrollspy" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>
+                        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos nemo laborum commodi possimus recusandae sed doloribus a dolor obcaecati culpa"
+                    </h4>
+                    <p>-Jone Doe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section blue section-about scrollspy" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="img/goog2.png" alt="">
+                </div>
+                <div class="col s12 m6">
+                    <div class="content-right">
+                        <h4>Get To Know Google Home</h4>
+                        <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <button class="btn black-text deep-purple lighten-4">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-info">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-title"><h3>Info Block One</h3></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius modi perspiciatis atque ut mollitia deleniti blanditiis nulla earum fuga.</p>                            
+                </div>
+                <div class="col s12 m6">
+                    <h3>Info Block Two</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis vero ad dignissimos facere vel hic aperiam, deserunt iste est nulla?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-contact teal lighten-4 scrollspy" id="contact">
+        <div class="container">
+            <h4 class="center">Give Your Contact Information</h4>
+            <div class="row">
+                <div class="col m6 s12 white-text">
+                    <div class="input-field">
+                        <input id="fullname" type="text" class="validate">
+                        <label for="fullname">Full Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="phoneno" type="text" class="validate">
+                        <label for="phoneno">Phone No</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="emailaddr" type="email" class="validate">
+                        <label for="emailaddr">Email Address</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea id="msgtextra" class="materialize-textarea"></textarea>
+                        <label for="msgtextra">We Want To Hear From You</label>
+                    </div>
+                    <button class="btn white black-text">Send to Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section section-footer indigo darken-3 center white-text">
+        <p class="flow-text">Copyright &copy; 2018</p>
+    </footer>
+
+    <script src="materialize/js/materialize.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        var sidenav = document.querySelector('.sidenav');
+        M.Sidenav.init(sidenav, {});
+        
+        var scspy = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scspy, {});
+        // window.sr = ScrollReveal();
+        // sr.reveal('.brand-logo', {
+        //     origin: 'bottom'
+        // })
+    </script>
+</body>
+</html>

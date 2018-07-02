@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+
+.section-intro {
+    height: 100vh;
+    background-image: url('../img/header1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.section-intro h5,h6 {
+    margin-top: 29vh;
+}
+
+.section-skills .fa-7x {
+    padding: 20px 10px;
+}

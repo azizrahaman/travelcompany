@@ -1,0 +1,93 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#header {
+    border-top: 5px solid #40aed7;
+    padding: 25px 0;
+    width: 100%;
+}
+
+#header #search-form {
+    float : right;
+    text-align: right
+}
+
+#header #search-form input[type='text'] {
+    background: #e9e9e9;
+    border: 0px solid;
+    padding: 15px 10px;
+    color: #80808080;
+}
+
+.btn-search {
+    padding: 15px 10px;
+    background: #40aed7;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;;
+}
+
+#header #mainmenu {
+    width: 100%;
+    clear: both;
+}
+
+#header #mainmenu ul#nav{
+    text-align: right;
+    list-style: none;
+    
+}
+
+#header #mainmenu li {
+    display: inline-block;
+}
+
+#header #mainmenu li a {
+    color: #666666; text-transform: uppercase; font-size: 13px; display: inline-block; padding: 10px 10px;
+}
+
+#header #mainmenu li a:hover {
+    color: #40aed7;
+}
+
+.search-form {
+    padding-top: 0.5rem;
+}
+
+.main-menu {
+    border-top: 5px solid #40aed7;
+    background: #dbe1e4 !important;
+}
+
+.section-top-footer {
+    background: #1b1b1b !important;
+}
+.section-top-footer p {
+    border-bottom: 0;
+}
+
+.section-top-footer .fa-3x {
+    margin: 5px 5px;
+}
+
+.section-top-footer h5 {
+    margin-bottom: 10px;
+}
+
+.section-top-footer .fa-3x:first-of-type {
+    margin-left: 0px;
+}
+
+.bottom-footer {
+    background: #161616;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-banner img {
+        width: 90%;
+    }
+    .section-blockes img {
+        width: 90%;
+    }
+}

@@ -1,0 +1,66 @@
+.nav-wrapper a {
+    color: black;
+}
+.brand-logo {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.5rem !important;
+}
+
+.section-header img {
+    max-width: 100%;
+}
+
+.section-header h2 {
+    font-family: 'Poppins';
+}
+
+.section-quote p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.section-about img {
+    max-width: 100%;
+}
+
+.section-about .content-right p {
+    font-size: 18px;
+}
+
+.input-field input:focus + label {
+    color: #000 !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.input-field textarea:focus + label {
+    color: #000 !important;
+}
+
+.materialize-textarea:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.materialize-textarea {
+    border-bottom: 0.5px solid indigo !important;
+}
+
+.input-field input {
+    border-bottom: 0.5px solid indigo !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-right {
+        padding-top: 3rem;
+    }
+
+    .section-about .content-right {
+        padding-top: 3rem;
+    }
+}
